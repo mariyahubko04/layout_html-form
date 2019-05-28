@@ -10,3 +10,7 @@ label {
 label:last-child {
   margin-bottom: 0;
 }
+
+.blockInline {
+  display: inline-block;
+}

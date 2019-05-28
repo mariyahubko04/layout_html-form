@@ -43,9 +43,12 @@
     </fieldset>
     <fieldset>
       <legend>An interesting fact about you!</legend>
-      <label for="loveCat">Do you love cats?
-      <input  id="loveCat" type="radio" name="yes-no" value="true">Yes
-      <input id="loveCats" type="radio" name="yes-no" value="false">No
+      <span>Do you love cats?</span>
+      <label for="loveCat" class="blockInline">
+      <input  id="loveCat" type="radio" name="loveCat" value="true">Yes
+      </label>
+      <label for="noLoveCat" class="blockInline">
+      <input id="noLoveCat" type="radio" name="loveCat" value="false">No
       </label>
       <label for="favoriteColor">What is your favorite color?
       <input id="favoriteColor" name="favoriteColor" type="color">
